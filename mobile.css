@@ -1,0 +1,51 @@
+@media screen and (max-width: 600px) {
+    [class*="card"]{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 5rem 0 5rem;
+        height: 40rem;
+    }
+
+    [class*="cardimg"]{
+        display: none;
+    }
+
+    [class*="imgmobile"]{
+        display: flex;
+        max-width: 100%;
+        border-radius: 0.7rem 0.7rem 0 0;
+    }
+
+    [class*="ttl2"]{
+        padding: 1rem 0 0 0;
+        font-size: 2rem;
+    }
+
+    [class*="parag1"]{
+        font-size: 0.9rem;
+        padding: 1rem 0 0 0;
+    }
+
+    [class*="valores"]{
+        padding: 1rem 0 0 0;
+    }
+
+    [class*="newvalue"]{
+        font-size: 2rem;
+    }
+
+    [class*="discount"]{
+        font-size: 0.8rem;
+    }
+
+    [class*="btn"]{
+        padding: 0.5rem 0 0 0;
+    }
+
+    [class*="btnbuy"]{
+        padding: 0;
+    }
+
+}
